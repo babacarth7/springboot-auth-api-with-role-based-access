@@ -13,7 +13,7 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/senegal-service-hub.git
+   git clone https://github.com/babacarth7/springboot-auth-api-with-role-based-access.git
    cd senegal-service-hub-backend
    ```
 
@@ -28,22 +28,19 @@ Follow these steps to set up and run the project locally:
    ```
 
 4. **Access the application:**
-   - The backend server will start at `http://localhost:8080`.
+   - The backend server will start at `http://localhost:8005`.
    - Use Postman or any REST client to interact with the APIs.
 
 ## Features
 - User authentication and authorization with JWT
 - CRUD operations for users and roles
 - Integration with MySQL database
-- Swagger UI for API documentation (accessible at `http://localhost:8080/swagger-ui.html`)
 
 ## API Endpoints
 - **POST /api/auth/signup:** Register a new user.
 - **POST /api/auth/signin:** Authenticate and generate a JWT token.
 - **GET /api/users:** Retrieve all users with admin or super_admin role.
 - **GET /api/users/me:** Retrieve a single user user.
-- **PUT /api/users/{id}:** Update user information.
-- **DELETE /api/users/{id}:** Delete user.
 
 ## Technologies Used
 - Java Spring Boot
